@@ -1,6 +1,6 @@
 " Description: ty as linter for python files
 call ale#Set('python_ty_executable', 'ty')
-call ale#Set('python_ty_use_global', get(g:, 'ale_use_global_executables', 1))
+call ale#Set('python_ty_use_global', get(g:, 'ale_use_global_executables', 0))
 call ale#Set('python_ty_change_directory', 1)
 call ale#Set('python_ty_auto_pipenv', 0)
 call ale#Set('python_ty_auto_poetry', 0)
