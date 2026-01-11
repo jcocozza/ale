@@ -495,7 +495,7 @@ function! s:SendInitMessage(conn) abort
     \                   'linkSupport': v:false,
     \               },
     \               'diagnostic': {
-    \                   'dynamicRegistration': v:true,
+    \                   'dynamicRegistration': v:false,
     \                   'relatedDocumentSupport': v:true,
     \               },
     \               'publishDiagnostics': {
